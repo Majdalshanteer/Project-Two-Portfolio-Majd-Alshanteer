@@ -1,0 +1,81 @@
+
+
+.container{
+    display: flex;
+    width: 900px;
+    height:700px ;
+    border: solid 5px #daa520;
+    color: aliceblue;
+    text-align: center;
+
+    
+    font-size: xx-large;
+
+
+
+}
+.first{
+    
+    width: 100px;
+    height:700px ;
+    
+    background-color: #008000;
+
+}
+.second{
+    
+    width: 100px;
+    height:700px ;
+    background-color: #ffff00;
+
+}
+.third{
+    
+    width: 100px;
+    height:700px ;
+    background-color: #800080;
+
+}
+.fourth{
+  
+    width: 100px;
+    height:700px ;
+    background-color: #808080;
+
+}
+.fifth{
+   
+    width: 100px;
+    height:700px ;
+    background-color: blue;
+
+}
+.sixth{
+  
+    width: 100px;
+    height:700px ;
+    background-color: #ffa500;
+
+}
+.seventh{
+    
+    width: 100px;
+    height:700px ;
+    background-color: #ffc0cb;
+
+}
+.eighth{
+   
+    width: 100px;
+    height:700px ;
+    background-color: #ff0000;
+
+}
+.ninth{
+   
+    width: 100px;
+    height:700px ;
+    background-color: #a52a2a;
+
+}
+

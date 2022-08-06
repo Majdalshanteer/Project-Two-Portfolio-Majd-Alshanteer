@@ -1,0 +1,305 @@
+
+nav {
+
+   margin-top: 1%;
+   margin-bottom: 1%;
+   height: 60px;
+   font-size: larger;
+   
+
+}
+p{
+   font-size: x-large;
+   font-weight: 700;
+   color: #734a1b;
+   font-family: 'Playfair Display', serif;
+   font-style: italic;
+}
+
+.main{
+    background-image: url(../images-project/contact.JPG);
+    height:500px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 5px solid rgb(247, 223, 127);
+    margin: auto;
+   
+}
+.components{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    margin-left: -15%;
+}
+ .components .personal-info{
+    align-self: center;
+    font-weight: 600;
+    font-size: larger;
+    border: 5px black solid;
+    padding: 2%;
+ }
+
+ img{
+    width: 25%;
+    height: 350px;
+   
+    margin-left: 2%;
+}
+
+
+
+/* form style */
+
+
+label {
+    width: 100px;
+   
+   
+  }
+  
+  input{
+   width:300px;
+  }
+
+textarea{width:300px ;
+   height:80px;
+}
+
+
+.send{
+ 
+    height: 50px; 
+     background-color: #eddecb;
+      opacity: 80%;
+}
+
+
+
+
+
+
+/* footer */
+
+
+  footer{
+      background-color: rgb(148, 147, 147);
+      height: 150px; 
+     margin-top: 4%;
+  }
+  
+ .page-components{
+   padding-top: 3%;
+   padding-bottom: 2%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.page-components div{
+    width: 10%;
+   
+ }
+
+ .contact{
+   display: flex;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+    cursor: pointer;
+
+
+ }
+ .contact .mail:hover {
+   color: blue;
+ }
+.contact .phone:hover{
+   color: blue;
+}
+.contact .location:hover{
+   color: blue;
+}
+
+ .contact .mail{
+   width: 20%;
+
+ }
+
+ .contact .phone{
+   width:10%;
+ }
+
+.contact .location{
+   width: 11%;
+}
+
+.contact img{
+   width: 20px;
+   height: 20px;
+}
+
+
+ a{
+    text-decoration: none;
+   color: white;
+   font-weight: 800;
+}
+
+
+
+
+
+
+@media screen and (max-width: 550px){
+
+   .main{
+      height:400px;
+      width: 100%;
+     
+  }
+   input{
+      width:140px;
+     
+   }
+   textarea{width:140px ;
+      height:80px;
+   }
+   .components img{
+      visibility: hidden;
+    
+  }
+  .send{
+   height: 30px;
+  }
+     /* footer */
+    
+footer {
+   background-color: rgb(148, 147, 147);
+   height: 150px;
+   width: 100%;
+   margin-top: 4%;
+}
+
+
+
+.page-components {
+   padding-top: 3%;
+   padding-bottom: 2%;
+
+   display: inline-flex;
+   flex-direction: column;
+   justify-content:left;
+   align-content: space-between;
+   width: 50%;
+}
+
+.page-components div {
+   width: 60%;
+   font-size: small;
+   height: 24px;
+
+
+}
+
+
+.contact {
+   
+   display: inline-flex;
+   flex-direction: column;
+   justify-content: left;
+   align-content: left;
+
+   margin-left: -20%;
+   margin-top: 5%;
+
+
+
+}
+
+
+
+.contact .mail {
+   width: 10%;
+   font-size: x-small;
+
+}
+
+.contact .phone {
+   width: 5%;
+   font-size: x-small;
+   margin-left: -8%;
+   margin-bottom: 7%;
+}
+
+.contact .location {
+   width:70%;
+   font-size: x-small;
+   margin-left:50%;
+   margin-bottom:8%;
+  
+   
+}
+p{
+   font-size:large;
+
+}
+
+
+
+
+  
+
+}
+
+
+@media screen and (min-width:551px) and ( max-width: 920px){
+
+
+   /* footer */
+
+
+footer {
+
+   height: 140px;
+
+}
+
+
+
+.page-components div {
+   width: 19%;
+
+
+}
+
+
+
+
+.contact .mail {
+   width: 33%;
+
+}
+
+.contact .phone {
+   width: 20%;
+}
+
+.contact .location {
+   width: 25%;
+}
+
+
+
+
+
+
+
+}
+
+
